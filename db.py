@@ -27,8 +27,4 @@ class PsqlDB:
         self.cur.close()
         self.conn.close()
 
-    def close_conn(self):
-        self.cur.close()
-        self.conn.close()
-
 
